@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<style type="text/css">
+      body {
+        background: black;
+        color: white;
+      }
+      div.container {
+        max-width: 500px;
+        margin: 100px auto;
+        border: 20px solid white;
+        padding: 10px;
+        text-align: center;
+      }
+      h4 {
+        text-transform: uppercase;
+      }
+    </style>
+    <title></title>
+</head>
+<body>
 
+    <div class="container">
+      <h4>Upload a File: </h4>
+      <form action="/" method="POST" enctype="multipart/form-data">
+
+        <label for="select_file"></label>
+        <br></br>
+        <input type="file" name="select_file">
+        <br></br>
+        <button type="submit">Upload</button>
+
+    </form>
+      <p><small>Created by: Justin Perkins </small></p>
+    </div>
+
+</body>
+
+</html>
