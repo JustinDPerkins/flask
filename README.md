@@ -1,4 +1,4 @@
-# flask
+# flask app for s3 upload
 
 This is a simple python-flask app to upload a file to AWS S3.
 
